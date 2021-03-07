@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gogetenk.Deliveroo.ApiGateway", "Gogetenk.Deliveroo.ApiGateway\Gogetenk.Deliveroo.ApiGateway.csproj", "{CD58B32E-CEA6-433A-BCE1-1512EC837C09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Solution Items", "00 - Solution Items", "{B85A9787-B632-4D3C-8B09-DCD8A99F171C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Microservices", "01 - Microservices", "{813703A6-85B5-465F-AB05-9CECA8583518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Applications", "02 - Applications", "{1CF936DD-4200-4EFE-B87F-971EF7D6E3FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{24711360-029B-40B5-ABBC-480984CCD959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserApi", "UserApi", "{35B34847-1630-44D8-93F6-AEB022F8EA61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderApi", "OrderApi", "{0319D96C-D368-4094-BFE0-CA7208C0AF8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestaurantApi", "RestaurantApi", "{16E8FC71-057F-45C7-BB6E-5D2A8ECCCECE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MenuApi", "MenuApi", "{A3C46C54-3A40-4393-86A2-2DDD0BE632FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{946DF308-E5AB-424A-8D80-376EE9717358}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{49C19750-9B67-4D0F-8F54-A88DD9BD8370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gogetenk.Deliveroo.MenuApi", "Gogetenk.Deliveroo.MenuApi\Gogetenk.Deliveroo.MenuApi.csproj", "{534636F1-082F-4475-B9FD-A71D1A1A32F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gogetenk.Deliveroo.MenuApi.Domain", "Gogetenk.Deliveroo.MenuApi.Domain\Gogetenk.Deliveroo.MenuApi.Domain.csproj", "{5520E4FA-2E91-44FC-8396-53AB24B6B5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gogetenk.Deliveroo.MenuApi.Infrastructure", "Gogetenk.Deliveroo.MenuApi.Infrastructure\Gogetenk.Deliveroo.MenuApi.Infrastructure.csproj", "{E89CE5AE-D488-480C-A048-294998B37052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD58B32E-CEA6-433A-BCE1-1512EC837C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD58B32E-CEA6-433A-BCE1-1512EC837C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD58B32E-CEA6-433A-BCE1-1512EC837C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD58B32E-CEA6-433A-BCE1-1512EC837C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534636F1-082F-4475-B9FD-A71D1A1A32F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534636F1-082F-4475-B9FD-A71D1A1A32F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534636F1-082F-4475-B9FD-A71D1A1A32F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534636F1-082F-4475-B9FD-A71D1A1A32F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5520E4FA-2E91-44FC-8396-53AB24B6B5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5520E4FA-2E91-44FC-8396-53AB24B6B5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5520E4FA-2E91-44FC-8396-53AB24B6B5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5520E4FA-2E91-44FC-8396-53AB24B6B5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89CE5AE-D488-480C-A048-294998B37052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89CE5AE-D488-480C-A048-294998B37052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89CE5AE-D488-480C-A048-294998B37052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89CE5AE-D488-480C-A048-294998B37052}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD58B32E-CEA6-433A-BCE1-1512EC837C09} = {24711360-029B-40B5-ABBC-480984CCD959}
+		{24711360-029B-40B5-ABBC-480984CCD959} = {813703A6-85B5-465F-AB05-9CECA8583518}
+		{35B34847-1630-44D8-93F6-AEB022F8EA61} = {813703A6-85B5-465F-AB05-9CECA8583518}
+		{0319D96C-D368-4094-BFE0-CA7208C0AF8C} = {813703A6-85B5-465F-AB05-9CECA8583518}
+		{16E8FC71-057F-45C7-BB6E-5D2A8ECCCECE} = {813703A6-85B5-465F-AB05-9CECA8583518}
+		{A3C46C54-3A40-4393-86A2-2DDD0BE632FA} = {813703A6-85B5-465F-AB05-9CECA8583518}
+		{946DF308-E5AB-424A-8D80-376EE9717358} = {1CF936DD-4200-4EFE-B87F-971EF7D6E3FB}
+		{49C19750-9B67-4D0F-8F54-A88DD9BD8370} = {1CF936DD-4200-4EFE-B87F-971EF7D6E3FB}
+		{534636F1-082F-4475-B9FD-A71D1A1A32F2} = {A3C46C54-3A40-4393-86A2-2DDD0BE632FA}
+		{5520E4FA-2E91-44FC-8396-53AB24B6B5BC} = {A3C46C54-3A40-4393-86A2-2DDD0BE632FA}
+		{E89CE5AE-D488-480C-A048-294998B37052} = {A3C46C54-3A40-4393-86A2-2DDD0BE632FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6885E70E-DF28-4439-BDB1-0A7B80BA5F70}
+	EndGlobalSection
+EndGlobal
